@@ -7,7 +7,7 @@ const app = express();
 mongoose.connect('mongodb+srv://juliana:omnistack10@cluster0-lq2ec.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-})
+});
 
 // GET, POST, PUT, DELETE
 
